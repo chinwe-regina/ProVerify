@@ -18,7 +18,7 @@ const HomeScreen = () => {
         <div className='w-[600px] justify-between h-[60px] flex ' >
           <input type="text" placeholder='Email' className='w-[180px] h-[40px] text-[15px] border pl-2 rounded-md' />
           <input type="text" placeholder='Password' className='w-[180px] h-[40px] text-[15px] border pl-2 rounded-md' />
-          <Link to="/Register" className="font-bold text-black w-[180px] h-[40px] flex border items-center justify-center bg-green-800">
+          <Link to="/verify" className="font-bold text-black w-[180px] h-[40px] flex border items-center justify-center bg-green-800">
               GET STARTED
             </Link>
         </div>

@@ -18,12 +18,12 @@ const Verify = () => {
                             <input type="text" placeholder='Password' className='flex-1 outline-none border border-gray-300 rounded-md bg-white mb-5 h-[40px] pl-2'/>                            
                         </div>
                         <div  className="h-[50px] w-full flex mb-[40px] items-center gap-3 justify-center">
-                            <div className="flex h-[35px] px-1 w-[80px] hover:cursor-pointer rounded-lg border bg-[#65e9ca]">
+                            <Link to="/" className="flex h-[35px] px-1 w-[80px] hover:cursor-pointer rounded-lg border bg-[#65e9ca]">
                             <div className="flex text-yellow-600 text-[30px] items-center">
                               <IoIosArrowRoundBack/>
                               </div>
                             <div className="flex items-center">Back</div>
-                             </div>
+                             </Link>
                             < Link  className="flex px-1 h-[35px] w-[160px] rounded-lg border hover:cursor-pointer bg-[#65e9ca] items-center justify-center" to="/VerifyCode">Verify Your Account  </Link>
                         </div>
                     </div>
